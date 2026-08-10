@@ -18,7 +18,7 @@ public class Demarrage implements CommandLineRunner {
     @Value("${isepat.adresse}")
     private String adresse;
 
-    @Value("${isepat.dev.auth.pwd.minLength}")
+    @Value("${isepat.auth.pwd.minLength}")
     private Integer pwdMinLength;
 
     public Demarrage(){
